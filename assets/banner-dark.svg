@@ -1,52 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Isometric panel">
   <defs>
-    <linearGradient id="g_green_0" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#37a865"/><stop offset="1" stop-color="#1f7a46"/></linearGradient><linearGradient id="g_steel_1" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#5b636b"/><stop offset="1" stop-color="#3c434a"/></linearGradient><linearGradient id="g_crimson_2" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#c6332f"/><stop offset="1" stop-color="#A31C1B"/></linearGradient>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#232323"/></pattern>
-    <radialGradient id="glow" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#A31C1B" stop-opacity="0.18"/><stop offset="1" stop-color="#A31C1B" stop-opacity="0"/></radialGradient>
-    <radialGradient id="floorg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#06110C" stop-opacity="0.6"/><stop offset="1" stop-color="#06110C" stop-opacity="0"/></radialGradient>
+    <linearGradient id="g_cyan_0" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#38e0ef"/><stop offset="1" stop-color="#22c3d4"/></linearGradient><linearGradient id="g_violet_1" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient><linearGradient id="g_rose_2" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#fb6f85"/><stop offset="1" stop-color="#f43f5e"/></linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#141b29"/></pattern>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.2"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#22c3d4" stop-opacity="0.16"/><stop offset="1" stop-color="#22c3d4" stop-opacity="0"/></radialGradient>
     <clipPath id="card"><rect width="900" height="340" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
-    <rect width="900" height="340" fill="#171717"/>
+    <rect width="900" height="340" fill="#0a0e17"/>
     <rect width="900" height="340" fill="url(#dots)"/>
-    <ellipse cx="638" cy="150" rx="260" ry="170" fill="url(#glow)"/>
+    <ellipse cx="638" cy="170" rx="260" ry="170" fill="url(#glowA)"/>
+    <ellipse cx="300" cy="90" rx="240" ry="150" fill="url(#glowB)"/>
   </g>
-  <rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="none" stroke="#2a2a2a"/>
-  <text x="44" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8a8a8a"><tspan fill="#cf3b39">root@kali</tspan>:<tspan fill="#46c882">~</tspan>$ whoami<tspan fill="#cf3b39">&#9613;<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></tspan></text>
-  <text x="42" y="150" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#f2f2f2">Dasari Kishan Kumar</text>
-  <text x="44" y="183" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="16" fill="#d0d0d0">Offensive Security Consultant @ Protiviti</text>
-  <text x="44" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8a8a8a">Coimbatore, India · CPTS / CRTP in prep</text>
+  <rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="none" stroke="#1e2636"/>
+  <text x="46" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#7f8a9e"><tspan fill="#f43f5e">root@kali</tspan>:<tspan fill="#22c3d4">~</tspan>$ whoami<tspan fill="#f43f5e">&#9613;<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></tspan></text>
+  <text x="44" y="150" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#f5f7fa">Dasari Kishan Kumar</text>
+  <text x="46" y="183" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="16" fill="#c3cad6">Offensive Security Consultant @ Protiviti</text>
+  <text x="46" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#7f8a9e">Coimbatore, India &#183; CPTS / CRTP in prep</text>
   <g>
     <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="5s" begin="0.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
-    <polygon points="542,256 638,304 638,332 542,284" fill="#175f36"/>
-    <polygon points="638,304 734,256 734,284 638,332" fill="#0d4024"/>
-    <polygon points="638,208 734,256 638,304 542,256" fill="url(#g_green_0)"/>
-    <polygon points="638,208 734,256 638,304 542,256" fill="none" stroke="#ffffff" stroke-opacity="0.30" stroke-width="1"/>
-    <polygon points="638,220 710,256 638,292 566,256" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
-    <line x1="734" y1="256" x2="756" y2="256" stroke="#175f36"/>
-    <circle cx="756" cy="256" r="3" fill="#46c882"><animate attributeName="fill-opacity" values="1;0.4;1" dur="2.2s" begin="0.0s" repeatCount="indefinite"/></circle>
-    <text x="764" y="260" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#d0d0d0">Cloud Review</text>
+    <polygon points="542,256 638,304 638,332 542,284" fill="#1892a0"/>
+    <polygon points="638,304 734,256 734,284 638,332" fill="#0f5f69"/>
+    <polygon points="638,208 734,256 638,304 542,256" fill="url(#g_cyan_0)"/>
+    <polygon points="638,208 734,256 638,304 542,256" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="1"/>
+    <polygon points="638,218 714,256 638,294 562,256" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
+    <line x1="734" y1="256" x2="760" y2="256" stroke="#1892a0"/>
+    <circle cx="760" cy="256" r="3" fill="#5ef0ff"><animate attributeName="fill-opacity" values="1;0.4;1" dur="2.2s" begin="0.0s" repeatCount="indefinite"/></circle>
+    <text x="772" y="260" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#c3cad6">Cloud Review</text>
   </g>
   <g>
     <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="5s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
-    <polygon points="542,164 638,212 638,240 542,192" fill="#333a40"/>
-    <polygon points="638,212 734,164 734,192 638,240" fill="#232a2f"/>
-    <polygon points="638,116 734,164 638,212 542,164" fill="url(#g_steel_1)"/>
-    <polygon points="638,116 734,164 638,212 542,164" fill="none" stroke="#ffffff" stroke-opacity="0.30" stroke-width="1"/>
-    <polygon points="638,128 710,164 638,200 566,164" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
-    <line x1="734" y1="164" x2="756" y2="164" stroke="#333a40"/>
-    <circle cx="756" cy="164" r="3" fill="#9aa4ad"><animate attributeName="fill-opacity" values="1;0.4;1" dur="2.2s" begin="0.3s" repeatCount="indefinite"/></circle>
-    <text x="764" y="168" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#d0d0d0">Application Security</text>
+    <polygon points="542,164 638,212 638,240 542,192" fill="#6d44d6"/>
+    <polygon points="638,212 734,164 734,192 638,240" fill="#4c2ba3"/>
+    <polygon points="638,116 734,164 638,212 542,164" fill="url(#g_violet_1)"/>
+    <polygon points="638,116 734,164 638,212 542,164" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="1"/>
+    <polygon points="638,126 714,164 638,202 562,164" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
+    <line x1="734" y1="164" x2="760" y2="164" stroke="#6d44d6"/>
+    <circle cx="760" cy="164" r="3" fill="#b794ff"><animate attributeName="fill-opacity" values="1;0.4;1" dur="2.2s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <text x="772" y="168" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#c3cad6">Application Security</text>
   </g>
   <g>
     <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="5s" begin="0.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
-    <polygon points="542,72 638,120 638,148 542,100" fill="#861614"/>
-    <polygon points="638,120 734,72 734,100 638,148" fill="#5f0f0d"/>
-    <polygon points="638,24 734,72 638,120 542,72" fill="url(#g_crimson_2)"/>
-    <polygon points="638,24 734,72 638,120 542,72" fill="none" stroke="#ffffff" stroke-opacity="0.30" stroke-width="1"/>
-    <polygon points="638,36 710,72 638,108 566,72" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
-    <line x1="734" y1="72" x2="756" y2="72" stroke="#861614"/>
-    <circle cx="756" cy="72" r="3" fill="#e05552"><animate attributeName="fill-opacity" values="1;0.4;1" dur="2.2s" begin="0.6s" repeatCount="indefinite"/></circle>
-    <text x="764" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#d0d0d0">Red Teaming</text>
+    <polygon points="542,72 638,120 638,148 542,100" fill="#cc2f49"/>
+    <polygon points="638,120 734,72 734,100 638,148" fill="#991f34"/>
+    <polygon points="638,24 734,72 638,120 542,72" fill="url(#g_rose_2)"/>
+    <polygon points="638,24 734,72 638,120 542,72" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="1"/>
+    <polygon points="638,34 714,72 638,110 562,72" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
+    <line x1="734" y1="72" x2="760" y2="72" stroke="#cc2f49"/>
+    <circle cx="760" cy="72" r="3" fill="#ff8296"><animate attributeName="fill-opacity" values="1;0.4;1" dur="2.2s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <text x="772" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#c3cad6">Red Teaming</text>
   </g>
+  <circle r="3.5" fill="#f5f7fa"><animate attributeName="cx" values="638;638" dur="3s" repeatCount="indefinite"/><animate attributeName="cy" values="256;72" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3s" repeatCount="indefinite"/></circle>
 </svg>

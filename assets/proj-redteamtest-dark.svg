@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="185" viewBox="0 0 300 185" role="img" aria-label="Isometric panel">
+  <defs>
+    <linearGradient id="g_rose_0" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#fb6f85"/><stop offset="1" stop-color="#f43f5e"/></linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#141b29"/></pattern>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.2"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#22c3d4" stop-opacity="0.16"/><stop offset="1" stop-color="#22c3d4" stop-opacity="0"/></radialGradient>
+    <clipPath id="card"><rect width="300" height="185" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="300" height="185" fill="#0a0e17"/>
+    <rect width="300" height="185" fill="url(#dots)"/>
+    <ellipse cx="92" cy="170" rx="260" ry="170" fill="url(#glowA)"/>
+    <ellipse cx="300" cy="90" rx="240" ry="150" fill="url(#glowB)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="299" height="184" rx="16" fill="none" stroke="#1e2636"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="5s" begin="0.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <polygon points="36,96 92,124 92,142 36,114" fill="#cc2f49"/>
+    <polygon points="92,124 148,96 148,114 92,142" fill="#991f34"/>
+    <polygon points="92,68 148,96 92,124 36,96" fill="url(#g_rose_0)"/>
+    <polygon points="92,68 148,96 92,124 36,96" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="1"/>
+    <polygon points="92,78 128,96 92,114 56,96" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-dasharray="2 5"/>
+
+  </g>
+  <text x="162" y="74" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#ff8296">RedTeamtest</text>
+  <text x="162" y="97" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="11" fill="#8a94a6">NexusGuard: web &amp;</text>
+  <text x="162" y="113" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="11" fill="#8a94a6">network scan framework</text>
+  <circle cx="166" cy="135" r="4" fill="#ff8296"/>
+  <text x="177" y="139" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#c3cad6">Python</text>
+  <text x="162" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#7f8a9e">&#8594; open repo</text>
+</svg>
